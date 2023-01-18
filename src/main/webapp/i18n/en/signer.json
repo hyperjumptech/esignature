@@ -1,0 +1,11 @@
+{
+  "esigningApp": {
+    "signer": {
+      "sendmail": "Send email for signing",
+      "emptysigner": "No signer assigned yet",
+      "delete": {
+        "question": "Are you sure you want to delete signer {{ id }} from the document?"
+      }
+    }
+  }
+}

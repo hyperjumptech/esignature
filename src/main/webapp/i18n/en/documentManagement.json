@@ -1,0 +1,22 @@
+{
+  "esigningApp": {
+    "documentManagement": {
+      "title": "Documents",
+      "search": {
+        "title": "Search Documents",
+        "button": "search"
+      },
+      "table": {
+        "name": "DOCUMENT NAME",
+        "size": "FILE SIZE",
+        "status": "STATUS",
+        "update": "UPDATE"
+      },
+      "dotsmenu": {
+        "download": "Download PDF",
+        "send": "Send Copy of Document",
+        "view": "View Info"
+      }
+    }
+  }
+}

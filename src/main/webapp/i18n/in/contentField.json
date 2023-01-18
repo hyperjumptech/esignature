@@ -1,0 +1,33 @@
+{
+  "esigningApp": {
+    "contentField": {
+      "home": {
+        "title": "Content Fields",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Content Field baru",
+        "createOrEditLabel": "Buat atau edit Content Field",
+        "notFound": "No Content Fields found"
+      },
+      "created": "Content Field dengan id {{ param }} telah dibuat",
+      "updated": "Content Field dengan id {{ param }} telah diperbaharui",
+      "deleted": "Content Field dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Content Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Content Field"
+      },
+      "id": "ID",
+      "contentType": "Content Type",
+      "bbox": "Bbox",
+      "createDate": "Create Date",
+      "createBy": "Create By",
+      "updateDate": "Update Date",
+      "updateBy": "Update By",
+      "document": "Document",
+      "signatory": "Signatory",
+      "signatureBlock": "Signature Block",
+      "sentinelBlock": "Sentinel Block"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity SignatureBlock.
+    -->
+    <changeSet id="20221211164305-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="signature_block"
+                                 constraintName="fk_signature_block__user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="content_field_id"
+                                 baseTableName="signature_block"
+                                 constraintName="fk_signature_block__content_field_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="content_field"/>
+    </changeSet>
+</databaseChangeLog>

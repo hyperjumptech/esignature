@@ -1,0 +1,28 @@
+{
+  "esigningApp": {
+    "storageBlobAttachment": {
+      "home": {
+        "title": "Storage Blob Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Storage Blob Attachment baru",
+        "createOrEditLabel": "Buat atau edit Storage Blob Attachment",
+        "notFound": "No Storage Blob Attachments found"
+      },
+      "created": "Storage Blob Attachment dengan id {{ param }} telah dibuat",
+      "updated": "Storage Blob Attachment dengan id {{ param }} telah diperbaharui",
+      "deleted": "Storage Blob Attachment dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Storage Blob Attachment {{ id }}?"
+      },
+      "detail": {
+        "title": "Storage Blob Attachment"
+      },
+      "id": "ID",
+      "attachmentName": "Attachment Name",
+      "recordType": "Record Type",
+      "recordId": "Record Id",
+      "sblob": "Sblob",
+      "storageBlob": "Storage Blob"
+    }
+  }
+}

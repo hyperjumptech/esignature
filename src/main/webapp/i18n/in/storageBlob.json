@@ -1,0 +1,35 @@
+{
+  "esigningApp": {
+    "storageBlob": {
+      "home": {
+        "title": "Storage Blobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Storage Blob baru",
+        "createOrEditLabel": "Buat atau edit Storage Blob",
+        "notFound": "No Storage Blobs found"
+      },
+      "created": "Storage Blob dengan id {{ param }} telah dibuat",
+      "updated": "Storage Blob dengan id {{ param }} telah diperbaharui",
+      "deleted": "Storage Blob dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Storage Blob {{ id }}?"
+      },
+      "detail": {
+        "title": "Storage Blob"
+      },
+      "id": "ID",
+      "key": "Key",
+      "path": "Path",
+      "filename": "Filename",
+      "contentType": "Content Type",
+      "metadata": "Metadata",
+      "byteSize": "Byte Size",
+      "checksum": "Checksum",
+      "createDate": "Create Date",
+      "createBy": "Create By",
+      "updateDate": "Update Date",
+      "updateBy": "Update By",
+      "document": "Document"
+    }
+  }
+}

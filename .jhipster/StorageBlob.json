@@ -1,0 +1,79 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164309",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "storage_blob",
+  "fields": [
+    {
+      "fieldName": "key",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "path",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "filename",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "metadata",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "byteSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "checksum",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "StorageBlob",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "storageBlobAttachment",
+      "otherEntityRelationshipName": "storageBlob",
+      "relationshipName": "attachments",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "document",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "document",
+      "otherEntityRelationshipName": "storages",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

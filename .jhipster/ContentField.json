@@ -1,0 +1,72 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164308",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "content_field",
+  "fields": [
+    {
+      "fieldName": "contentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bbox",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updateBy",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ContentField",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "document",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "user",
+      "relationshipName": "signatory",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "document",
+      "otherEntityRelationshipName": "fields",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "signatureBlock",
+      "otherEntityRelationshipName": "contentField",
+      "relationshipName": "signatureBlock",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "sentinelBlock",
+      "otherEntityRelationshipName": "contentField",
+      "relationshipName": "sentinelBlock",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,22 @@
+{
+  "esigningApp": {
+    "documentManagement": {
+      "title": "Documents",
+      "search": {
+        "title": "Search Documents",
+        "button": "search"
+      },
+      "table": {
+        "name": "NAMA DOKUMEN",
+        "size": "UKURAN",
+        "status": "STATUS",
+        "update": "DIPERBAHARUI"
+      },
+      "dotsmenu": {
+        "download": "Unduh PDF",
+        "send": "Kirim salinan dokumen",
+        "view": "Lihat Info"
+      }
+    }
+  }
+}

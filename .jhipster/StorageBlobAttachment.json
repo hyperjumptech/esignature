@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164310",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "storage_blob_attachment",
+  "fields": [
+    {
+      "fieldName": "attachmentName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "StorageBlobAttachment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "filename",
+      "otherEntityName": "storageBlob",
+      "relationshipName": "sblob",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "storageBlob",
+      "otherEntityRelationshipName": "attachments",
+      "relationshipName": "storageBlob",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

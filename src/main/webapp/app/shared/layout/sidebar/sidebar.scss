@@ -1,0 +1,101 @@
+$sidebar-color: #fff;
+$sidebar-color-secondary: #bbb;
+$sidebar-color-hover: darken($sidebar-color, 20%);
+
+#app-sidebar {
+  background-color: #1f2937;
+  color: $sidebar-color;
+}
+
+/* ==========================================================================
+Developement Ribbon
+========================================================================== */
+.ribbon {
+  background-color: rgba(170, 0, 0, 0.5);
+  left: -3.5em;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 15em;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0.75;
+  a {
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    margin: 1px 0;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 5px #444;
+    pointer-events: none;
+  }
+}
+
+/* ==========================================================================
+Navbar styles
+========================================================================== */
+.navbar-brand {
+  overflow: hidden;
+}
+
+.jh-navbar .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-version {
+  font-size: 10px;
+  color: $sidebar-color-secondary;
+  padding: 0 0 0 10px;
+}
+
+.brand-logo {
+  padding-top: 10px;
+  &:hover {
+    text-decoration: none;
+  }
+  .brand-icon {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    img {
+      height: 45px;
+    }
+    .brand-color {
+      filter: invert(44%) sepia(8%) saturate(650%) hue-rotate(182deg) brightness(97%) contrast(89%);
+    }
+  }
+}
+
+.brand-title {
+  font-size: 24px;
+  color: $sidebar-color;
+  &:hover {
+    color: $sidebar-color-hover;
+    text-decoration: none;
+  }
+}
+
+.loading-bar {
+  height: 3px;
+  background-color: #009cd8;
+  position: absolute;
+  top: 0px;
+  z-index: 1031;
+}
+
+.white-text span {
+  color: #fff;
+}
+
+.white-text {
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+{
+  "esigningApp": {
+    "storageBlobAttachment": {
+      "home": {
+        "title": "Storage Blob Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Storage Blob Attachment",
+        "createOrEditLabel": "Create or edit a Storage Blob Attachment",
+        "notFound": "No Storage Blob Attachments found"
+      },
+      "created": "A new Storage Blob Attachment is created with identifier {{ param }}",
+      "updated": "A Storage Blob Attachment is updated with identifier {{ param }}",
+      "deleted": "A Storage Blob Attachment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Storage Blob Attachment {{ id }}?"
+      },
+      "detail": {
+        "title": "Storage Blob Attachment"
+      },
+      "id": "ID",
+      "attachmentName": "Attachment Name",
+      "recordType": "Record Type",
+      "recordId": "Record Id",
+      "sblob": "Sblob",
+      "storageBlob": "Storage Blob"
+    }
+  }
+}

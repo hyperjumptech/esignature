@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20221221122233",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "audit_trail",
+  "fields": [
+    {
+      "fieldName": "activity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ipaddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "time",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AuditTrail",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "document",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "document",
+      "otherEntityRelationshipName": "audittrails",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,26 @@
+{
+  "esigningApp": {
+    "sentinelBlock": {
+      "home": {
+        "title": "Sentinel Blocks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Sentinel Block baru",
+        "createOrEditLabel": "Buat atau edit Sentinel Block",
+        "notFound": "No Sentinel Blocks found"
+      },
+      "created": "Sentinel Block dengan id {{ param }} telah dibuat",
+      "updated": "Sentinel Block dengan id {{ param }} telah diperbaharui",
+      "deleted": "Sentinel Block dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Sentinel Block {{ id }}?"
+      },
+      "detail": {
+        "title": "Sentinel Block"
+      },
+      "id": "ID",
+      "blockType": "Block Type",
+      "placeholder": "Placeholder",
+      "contentField": "Content Field"
+    }
+  }
+}

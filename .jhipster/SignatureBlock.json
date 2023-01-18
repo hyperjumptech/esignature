@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164305",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "signature_block",
+  "fields": [
+    {
+      "fieldName": "styling",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "pubKey",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "pubKeyFingerprint",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SignatureBlock",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "contentField",
+      "otherEntityRelationshipName": "signatureBlock",
+      "relationshipName": "contentField",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

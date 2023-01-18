@@ -1,0 +1,27 @@
+{
+  "esigningApp": {
+    "textBlock": {
+      "home": {
+        "title": "Text Blocks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Text Block baru",
+        "createOrEditLabel": "Buat atau edit Text Block",
+        "notFound": "No Text Blocks found"
+      },
+      "created": "Text Block dengan id {{ param }} telah dibuat",
+      "updated": "Text Block dengan id {{ param }} telah diperbaharui",
+      "deleted": "Text Block dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Text Block {{ id }}?"
+      },
+      "detail": {
+        "title": "Text Block"
+      },
+      "id": "ID",
+      "textType": "Text Type",
+      "body": "Body",
+      "styling": "Styling",
+      "user": "User"
+    }
+  }
+}

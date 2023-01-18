@@ -1,0 +1,78 @@
+entity Document {
+    title String required
+    description String
+    createDate Instant
+    createBy String
+    updateDate Instant
+    updateBy String
+}
+entity DocumentParticipant {
+    isOwner Boolean
+}
+entity SignatureBlock {
+    styling TextBlob
+    pubKey String required
+    pubKeyFingerprint String required
+}
+entity SentinelBlock {
+    blockType String
+    placeholder String
+}
+entity TextBlock {
+    textType String
+    body String
+    styling TextBlob
+}
+entity ContentField {
+    contentType String
+    bbox TextBlob
+    createDate Instant
+    createBy String
+    updateDate Instant
+    updateBy String
+}
+entity StorageBlob {
+    key String
+    path String
+    filename String
+    contentType String
+    metadata String
+    byteSize Long
+    checksum String
+    createDate Instant
+    createBy String
+    updateDate Instant
+    updateBy String
+}
+entity StorageBlobAttachment {
+    attachmentName String
+    recordType String
+    recordId Long
+}
+entity AuditTrail {
+    activity String
+    description String
+    ipaddress String
+    time Instant
+}
+relationship ManyToOne {
+    DocumentParticipant{document(title)} to Document
+    DocumentParticipant{user(email)} to User
+    SignatureBlock{user(email)} to User
+    TextBlock{user(email)} to User
+    ContentField{document(title)} to Document
+    ContentField{signatory(email)} to User
+    StorageBlob{document(title)} to Document
+    StorageBlobAttachment{sblob(filename)} to StorageBlob
+    SignatureBlock to ContentField
+    SentinelBlock to ContentField
+    AuditTrail{document(title)} to Document
+    AuditTrail{user(email)} to User
+}
+relationship OneToMany {
+    Document{participants} to DocumentParticipant
+    Document{fields} to ContentField
+    Document{storages} to StorageBlob
+    StorageBlob{attachments} to StorageBlobAttachment
+    Document{audittrails} to AuditTrail
+}

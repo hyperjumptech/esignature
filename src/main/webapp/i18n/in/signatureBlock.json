@@ -1,0 +1,28 @@
+{
+  "esigningApp": {
+    "signatureBlock": {
+      "home": {
+        "title": "Signature Blocks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Signature Block baru",
+        "createOrEditLabel": "Buat atau edit Signature Block",
+        "notFound": "No Signature Blocks found"
+      },
+      "created": "Signature Block dengan id {{ param }} telah dibuat",
+      "updated": "Signature Block dengan id {{ param }} telah diperbaharui",
+      "deleted": "Signature Block dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Signature Block {{ id }}?"
+      },
+      "detail": {
+        "title": "Signature Block"
+      },
+      "id": "ID",
+      "styling": "Styling",
+      "pubKey": "Pub Key",
+      "pubKeyFingerprint": "Pub Key Fingerprint",
+      "user": "User",
+      "contentField": "Content Field"
+    }
+  }
+}

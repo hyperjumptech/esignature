@@ -1,0 +1,35 @@
+{
+  "esigningApp": {
+    "storageBlob": {
+      "home": {
+        "title": "Storage Blobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Storage Blob",
+        "createOrEditLabel": "Create or edit a Storage Blob",
+        "notFound": "No Storage Blobs found"
+      },
+      "created": "A new Storage Blob is created with identifier {{ param }}",
+      "updated": "A Storage Blob is updated with identifier {{ param }}",
+      "deleted": "A Storage Blob is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Storage Blob {{ id }}?"
+      },
+      "detail": {
+        "title": "Storage Blob"
+      },
+      "id": "ID",
+      "key": "Key",
+      "path": "Path",
+      "filename": "Filename",
+      "contentType": "Content Type",
+      "metadata": "Metadata",
+      "byteSize": "Byte Size",
+      "checksum": "Checksum",
+      "createDate": "Create Date",
+      "createBy": "Create By",
+      "updateDate": "Update Date",
+      "updateBy": "Update By",
+      "document": "Document"
+    }
+  }
+}

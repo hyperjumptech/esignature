@@ -1,0 +1,30 @@
+{
+  "esigningApp": {
+    "auditTrail": {
+      "home": {
+        "title": "Audit Trails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Audit Trail baru",
+        "createOrEditLabel": "Buat atau edit Audit Trail",
+        "notFound": "No Audit Trails found"
+      },
+      "created": "Audit Trail dengan id {{ param }} telah dibuat",
+      "updated": "Audit Trail dengan id {{ param }} telah diperbaharui",
+      "deleted": "Audit Trail dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Audit Trail {{ id }}?"
+      },
+      "detail": {
+        "title": "Audit Trail"
+      },
+      "id": "ID",
+      "activity": "Activity",
+      "description": "Description",
+      "ipaddress": "Ipaddress",
+      "time": "Time",
+      "document": "Document",
+      "user": "User",
+      "document": "Document"
+    }
+  }
+}

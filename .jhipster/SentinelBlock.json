@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164306",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "sentinel_block",
+  "fields": [
+    {
+      "fieldName": "blockType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "placeholder",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SentinelBlock",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "contentField",
+      "otherEntityRelationshipName": "sentinelBlock",
+      "relationshipName": "contentField",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

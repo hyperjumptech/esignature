@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20221211164304",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "document_participant",
+  "fields": [
+    {
+      "fieldName": "isOwner",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DocumentParticipant",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "document",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "document",
+      "otherEntityRelationshipName": "participants",
+      "relationshipName": "document",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

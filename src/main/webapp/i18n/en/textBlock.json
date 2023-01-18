@@ -1,0 +1,27 @@
+{
+  "esigningApp": {
+    "textBlock": {
+      "home": {
+        "title": "Text Blocks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Text Block",
+        "createOrEditLabel": "Create or edit a Text Block",
+        "notFound": "No Text Blocks found"
+      },
+      "created": "A new Text Block is created with identifier {{ param }}",
+      "updated": "A Text Block is updated with identifier {{ param }}",
+      "deleted": "A Text Block is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Text Block {{ id }}?"
+      },
+      "detail": {
+        "title": "Text Block"
+      },
+      "id": "ID",
+      "textType": "Text Type",
+      "body": "Body",
+      "styling": "Styling",
+      "user": "User"
+    }
+  }
+}

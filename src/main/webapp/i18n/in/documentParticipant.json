@@ -1,0 +1,26 @@
+{
+  "esigningApp": {
+    "documentParticipant": {
+      "home": {
+        "title": "Document Participants",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Document Participant baru",
+        "createOrEditLabel": "Buat atau edit Document Participant",
+        "notFound": "No Document Participants found"
+      },
+      "created": "Document Participant dengan id {{ param }} telah dibuat",
+      "updated": "Document Participant dengan id {{ param }} telah diperbaharui",
+      "deleted": "Document Participant dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Document Participant {{ id }}?"
+      },
+      "detail": {
+        "title": "Document Participant"
+      },
+      "id": "ID",
+      "isOwner": "Is Owner",
+      "document": "Document",
+      "user": "User"
+    }
+  }
+}

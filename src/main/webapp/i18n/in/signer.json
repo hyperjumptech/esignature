@@ -1,0 +1,11 @@
+{
+  "esigningApp": {
+    "signer": {
+      "sendmail": "Kirim email untuk tandatangan",
+      "emptysigner": "Tidak ada user yang di tugaskan",
+      "delete": {
+        "question": "Anda yakin ingin menghapus pengguna {{ id }} dari dokumen ini?"
+      }
+    }
+  }
+}

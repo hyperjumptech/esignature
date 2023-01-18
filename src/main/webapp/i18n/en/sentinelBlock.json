@@ -1,0 +1,26 @@
+{
+  "esigningApp": {
+    "sentinelBlock": {
+      "home": {
+        "title": "Sentinel Blocks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Sentinel Block",
+        "createOrEditLabel": "Create or edit a Sentinel Block",
+        "notFound": "No Sentinel Blocks found"
+      },
+      "created": "A new Sentinel Block is created with identifier {{ param }}",
+      "updated": "A Sentinel Block is updated with identifier {{ param }}",
+      "deleted": "A Sentinel Block is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sentinel Block {{ id }}?"
+      },
+      "detail": {
+        "title": "Sentinel Block"
+      },
+      "id": "ID",
+      "blockType": "Block Type",
+      "placeholder": "Placeholder",
+      "contentField": "Content Field"
+    }
+  }
+}

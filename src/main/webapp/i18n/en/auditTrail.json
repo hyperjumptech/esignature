@@ -1,0 +1,30 @@
+{
+  "esigningApp": {
+    "auditTrail": {
+      "home": {
+        "title": "Audit Trails",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Audit Trail",
+        "createOrEditLabel": "Create or edit a Audit Trail",
+        "notFound": "No Audit Trails found"
+      },
+      "created": "A new Audit Trail is created with identifier {{ param }}",
+      "updated": "A Audit Trail is updated with identifier {{ param }}",
+      "deleted": "A Audit Trail is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Audit Trail {{ id }}?"
+      },
+      "detail": {
+        "title": "Audit Trail"
+      },
+      "id": "ID",
+      "activity": "Activity",
+      "description": "Description",
+      "ipaddress": "Ipaddress",
+      "time": "Time",
+      "document": "Document",
+      "user": "User",
+      "document": "Document"
+    }
+  }
+}
